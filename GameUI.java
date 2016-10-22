@@ -174,7 +174,7 @@ public class GameUI extends JPanel {
 	
 	private class summaryAction implements ActionListener{
 		public void actionPerformed(ActionEvent a){
-			pl.add(new UnitSummaryUI(pl));
+			pl.add(new UnitSummaryUI1(pl));
 			((CardLayout) pl.getLayout()).next(pl);
 		}
 	}
